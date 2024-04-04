@@ -1,0 +1,14 @@
+body {
+    background-color: var(--bg-color-tertiary);
+}
+
+.body-container {
+    padding: 20px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    gap: 15px;
+    height: max-content;
+}

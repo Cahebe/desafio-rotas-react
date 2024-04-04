@@ -1,0 +1,15 @@
+header {
+    background-color: var(--bg-color-primary);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    color: var(--font-color-primary);
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+}

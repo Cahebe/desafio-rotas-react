@@ -1,0 +1,18 @@
+main {
+    padding: 50px 90px;
+}
+
+main input {
+    color: var(--font-color-tertiary);
+}
+
+.search-main-container {
+    background-color: var(--bg-color-secondary);
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 50px;
+    border-radius: 16px;
+}

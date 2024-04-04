@@ -1,0 +1,48 @@
+.profile-card-container {
+    width: 1200px;
+    max-width: 1200px;
+    padding: 40px 35px;
+}
+
+.profile-card-container img {
+    width: 250px;
+    height: 250px;
+}
+
+.information-container {
+    background-color: var(--bg-color-quaternary);
+    margin-left: 30px;
+    border-radius: 6px;
+    width: 850px;
+    padding: 8px 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.title-label {
+    color: var(--font-color-quaternary);
+    font-size: 25px;
+}
+
+.label {
+    color: var(--font-color-mediumgrey);
+    font-weight: bold;
+}
+
+.data {
+    margin-left: 5px;
+    color: var(--font-color-mediumgrey);
+    font-size: 16px;
+}
+
+.profile-link {
+   margin-left: 5px;
+   text-decoration: none;
+}
+

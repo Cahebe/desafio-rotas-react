@@ -1,0 +1,34 @@
+.msp-header {
+  background-color: var(--msp-bg-color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  padding: 130px auto;
+  font-family: "Nunito";
+}
+
+.msp-logo-container {
+  color: var(--msp-logo-color-primary);
+  display: flex;
+}
+
+.dot {
+  color: var(--msp-logo-color-secondary);
+}
+
+.msp-header-menu-container {
+  color: var(--msp-font-color-primary);
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.msp-header-menu-container li {
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+.msp-header-menu-container li:nth-last-child(1) {
+  margin-right: 0px;
+}

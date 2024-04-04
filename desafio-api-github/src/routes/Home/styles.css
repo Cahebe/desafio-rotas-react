@@ -1,0 +1,29 @@
+main {
+    padding: 50px 90px;
+}
+
+.home-main-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+    letter-spacing: 0.96px;
+    line-height: 40px;
+}
+
+.home-main-container h3 {
+    color: var(--font-color-tertiary);
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.48px;
+}
+
+main button {
+    height: 40px;
+    width: 100px;
+    background-color: var(--bg-color-primary);
+    border: none;
+    color: var(--font-color-secondary);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --msp-bg-color-primary: #2A2531;
+  --msp-bg-color-secondary: #26222D;
+  --msp-bg-color-tertiary: #55515A;
+  --msp-bg-color-quaternary: #EDE6F6;
+
+  --msp-font-color-primary: #FFFFFF;
+  --msp-font-color-secondary: #EAE7EF;
+  --msp-font-color-tertiary: #7C7586;
+  --msp-font-color-quaternary: #26222D;
+
+  --msp-logo-color-primary: #EAE7EF;
+  --msp-logo-color-secondary: #A66000;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sana" "Nunito";
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}

@@ -3,11 +3,19 @@
 :root {
   --bg-color-primary: #1890FF;
   --bg-color-secondary: #E6F7FF;
+  --bg-color-tertiary: #f5f5f5;
+  --bg-color-quaternary: #fff;
+
 
   --font-color-primary: #000;
   --font-color-secondary: #fff;
   --font-color-tertiary: #7e7e7e;
   --font-color-quaternary: #1890FF;
+  --font-color-lightgrey: #d9d9d9;
+  --font-color-mediumgrey: #737373;
+
+
+  --border-color-primary: #d9d9d9
   
 }
 
@@ -17,4 +25,34 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+input {
+  width: 298px;
+  height: 40px;
+  border: none;
+  padding: 8px 17px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid var(--border-color-primary);
+}
+
+input::placeholder {
+  color: var(--font-color-lightgrey);
+  font-size: 16px;
+}
+
+.profile-card-container {
+  margin-top: 50px;
+  border-radius: 8px;
+  background-color: var(--bg-color-tertiary);
+  padding: 40px 38px;
+  display: flex;
+}
+
+.border-edit {
+  border: 1px solid var(--border-color-primary);
+  width: 810px;
+  padding: 8px 10px;
+}
+
 
